@@ -1,0 +1,37 @@
+{
+  "name": "micro-link",
+  "version": "0.0.1",
+  "description": "quickly & easily deploy your own deeplink services",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production micro -p 8080 .",
+    "dev": "micro -p 3000"
+  },
+  "keywords": [
+    "quick",
+    "easiy",
+    "deploy",
+    "deeplink",
+    "micro",
+    "services",
+    "link",
+    "url",
+    "micro-link"
+  ],
+  "author": "Kawi Xiao <kawixiao@gmail.com>",
+  "homepage": "https://github.com/xkawi/micro-link",
+  "bugs": {
+    "url": "https://github.com/xkawi/micro-link/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xkawi/micro-link.git"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "marked": "^0.3.6",
+    "micro": "^6.1.0",
+    "useragent": "^2.1.9"
+  },
+  "license": "MIT"
+}
