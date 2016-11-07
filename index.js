@@ -2,7 +2,7 @@ const marked = require('marked');
 const readFileSync = require('fs').readFileSync;
 const { parse } = require('url');
 const { json, send, sendError } = require('micro');
-const { generateDynamicLink, parseDynamicLink, tokenParamKey } = require('./lib/core');
+const { generateDynamicLink, parseDynamicLink, tokenQueryKey } = require('./lib/core');
 
 /**
  * handle thrown error and response properly
@@ -41,8 +41,8 @@ async function onPost(req) {
 async function onGet(req, res) {
   const { path, query } = await parse(req.url, true);
 
-  if (query[tokenParamKey]) {
-    const redirectTo = await parseDynamicLink(query[tokenParamKey], req.headers['user-agent']);
+  if (query[tokenQueryKey]) {
+    const redirectTo = await parseDynamicLink(query[tokenQueryKey], req.headers['user-agent']);
     res.setHeader('Location', redirectTo);
     return send(res, 301);
   }

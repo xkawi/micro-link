@@ -1,22 +1,26 @@
 {
   "name": "micro-link",
-  "version": "0.0.1",
-  "description": "quickly & easily deploy your own deeplink services",
+  "version": "0.0.2",
+  "description": "a minimalistic microservice that lets you easily generate and resolve sharable dynamic link",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production micro -p 8080 .",
     "dev": "micro -p 3000"
   },
   "keywords": [
-    "quick",
-    "easiy",
+    "easily",
     "deploy",
+    "minimalistic",
     "deeplink",
-    "micro",
-    "services",
+    "dynamic",
     "link",
     "url",
-    "micro-link"
+    "micro",
+    "services",
+    "microservice",
+    "micro-link",
+    "zeit",
+    "now"
   ],
   "author": "Kawi Xiao <kawixiao@gmail.com>",
   "homepage": "https://github.com/xkawi/micro-link",
