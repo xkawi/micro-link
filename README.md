@@ -61,7 +61,7 @@ You can easily deploy `micro-link` as your own dynamic link microservice as well
 
 Or just click the icon below to deploy your own microservice to Now:
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/xkawi/micro-link&JWT_SECRET=MyR4nD0mS3cR3t)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/xkawi/micro-link&env=JWT_SECRET)
 
 #### Managing Secrets & Environment Variables
 
