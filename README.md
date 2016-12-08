@@ -59,6 +59,10 @@ You can easily deploy `micro-link` as your own dynamic link microservice as well
 5. `$ now` (you may need to login if it is your first time)
 6. open the copied link in the browser and there you have it! your own dynamic link microservice deployed in less than a minute!
 
+Or just click the icon below to deploy your own microservice to Now:
+
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/xkawi/micro-link&JWT_SECRET=MyR4nD0mS3cR3t)
+
 #### Managing Secrets & Environment Variables
 
 If you look at `lib/core.js`, there are a few environment variables that you can utilize, they are namely:
